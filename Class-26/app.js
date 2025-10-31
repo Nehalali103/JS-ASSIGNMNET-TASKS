@@ -1,7 +1,7 @@
 
 
-var number1 = +prompt("Enter you first Value" );
-var number2 = +prompt("Enter you second Value" );
+var number1 = +prompt("Enter you first Number" );
+var number2 = +prompt("Enter you second Number" );
 
 var sum = number1 + number2;
 
