@@ -1,7 +1,7 @@
 
 // var gender = prompt("Enter your gender", "male")
 
-// var age = prompt ("Enter your age 18");
+var age = prompt ("Enter your age 18");
 
 if (age == 18) {
     alert("you are 18 age old Hm")
@@ -17,3 +17,9 @@ if (reEnterPassword != password){
 if(password == reEnterPassword){
     alert("successfully password");
 }
+
+
+// else 
+// {
+//     alert("Wrong password");
+// };
