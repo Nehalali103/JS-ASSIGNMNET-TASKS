@@ -1,25 +1,22 @@
 
 
 
-var institute2 = 'Gpi';
 var institute1 = "Smit";
+var institute2 = 'Gpi';
 var askinstitute1 = prompt("Enter your institute Smit ya Gpi 💻✅:")
 
 
-
-if (institute2 == askinstitute1) {
-    alert("Polyetechnic Institute ✅");
+if (askinstitute1 == institute1) {
+    console.log("Saylani mass it training ✅")
 }
 
-if (institute1 == askinstitute1) {
-    alert("Saylani mass it training ✅");
+else if (askinstitute1 == institute2) {
+    console.log("Polyetechnic Institute ✅")
 }
+
 
 else {
-    alert("any another institute . . . . . . ❌")
+    console.log("any another institute . . . . . . ❌")
 }
 
-// if (askinstitute1 != institute2) {
 
-//     alert("any another institute . . . . . . ❌")
-// }
