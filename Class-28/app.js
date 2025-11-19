@@ -41,13 +41,54 @@
 
 
 
-var arr = ["Majid" , "Faiz", "Arham"]
+// var arr = ["Majid" , "Faiz", "Arham"]
 
-arr [3] = "Nehal"
-arr [0] = 'Ali'
-arr [0] = 'Majid Ali'
+// arr [3] = "Nehal"
+// arr [0] = 'Ali'
+// arr [0] = 'Majid Ali'
+
+// console.log(arr)
+
+
+var arr = ['saad','farhan','ahsan','rehan','arsalan']
+ 
+arr.splice(1 , 2,'abc')
 
 console.log(arr)
+
+
+
+
+
+// arr.push("sammad")
+// arr.unshift("daniyal")
+// arr.pop()
+// arr.pop()
+// arr.shift()
+// arr.shift()
+
+// var cheekindex = arr.indexOf('farhan')
+
+// console.log(cheekindex)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
