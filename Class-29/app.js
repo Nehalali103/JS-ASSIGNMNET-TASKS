@@ -13,7 +13,7 @@
 
 
 // var items = ['cake1','cake2','cake3','cake4','cake5']
-// var usersName = prompt("enter your abkri")
+// var usersName = prompt("enter your abkri items")
 
 // if (items.indexOf(usersName) != -1){
 //     console.log(usersName,"not avilabe abkri")
