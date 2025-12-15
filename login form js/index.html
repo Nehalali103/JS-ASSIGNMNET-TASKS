@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #para {
+            display: inline-block;
+        }
+    </style>
 </head>
+
 <body>
-    
-    <form onsubmit="submitHandle(event)">
+
+    <!-- <form onsubmit="submitHandle(event)">
 
         <input type="text" id="email" placeholder="Enter Your Email Here">
         <input type="text" id="pass" placeholder="Enter Your Password Here">
@@ -15,9 +22,15 @@
         <button>Submit</button>
 
 
-    </form>
+    </form> -->
+
+
+    <p id="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, est.</p>
+    <span onclick="lgPara()" id="btn">see more</span>
 
 
     <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
+
 </html>
