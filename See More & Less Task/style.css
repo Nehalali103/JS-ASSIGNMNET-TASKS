@@ -7,13 +7,15 @@
 }
 
 header {
-    padding: 3%;
+    margin-top: 20px;
+    padding: 0 3% ;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .headerLeft {
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -24,36 +26,108 @@ header {
     font-size: 28px
 }
 
+.headerimg {
+    top: 0;
+    left: 530px;
+    position: absolute;
+}
+
+.headerimg img {
+    height: 524px;
+}
+
+.headerimg .pngwing {
+    width: 623px;
+    height: 623px;
+    top: 7px;
+    right: 5px;
+    background-color: transparent;
+    position: absolute;
+}
+
 .headerRight{
     display: flex;
     gap: 40px;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .headerRight input{
     border-radius: 29px;
     border: 1px solid white;
     width: 146px;
+    padding-left: 35px;
     height: 46px;
+}
+
+.headerRight input:focus{
+    outline: none;
 }
 
 .headerRight p {
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }
 
-#para {
-    margin: 12px 0;
-    margin-bottom: 15px;
-    display: inline-block;
-    font-size: 22px;
+.headerRight img{
+    left: 10px;
+    position: absolute;
 }
 
-#btn {
-    padding: 10px 15px;
+.HeroSection {
+    margin-top: 40px;
+    padding: 0 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeroContent h1 {
+    /* background-color: aquamarine; */
+    color: white;
+    font-size: 80px;
+}
+
+.HeroContent p {
+    color: white;
     font-size: 20px;
-    border-radius: 50px 28px;
+    margin: 15px 0;
+}
+
+.HeroContent #btn {
+    padding: 15px 24px;
     border: 1px solid black;
-    /* border-color: aqua; */
+    background-color:white;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Heroiron {
+    display: flex;
+    margin-top: 100px;
+}
+
+.heroIronTx{
+    padding: 30px 20px;
+    height: 112px;
+    width: 367px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.heroIronTx p{
+    word-spacing: 10px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.Heroiron img {
+    top: -69px;
+    right: -40px;
+    background-color: transparent;
+    position: absolute;
 }
