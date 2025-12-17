@@ -10,15 +10,33 @@
 
 <body>
 
-    <form onsubmit="submitHandle(event)">
+        <div class="formSection">
 
-        <input type="text" id="email" placeholder="Enter Your Email Here">
-        <input type="text" id="pass" placeholder="Enter Your Password Here">
-        
-        <button>Submit</button>
+            <div class="formInput">
 
+                <h1>Login</h1>
 
-    </form>
+                <form onsubmit="submitHandle(event)">
+
+                    <p><label for="email">Email</label></p>
+                    <input type="text" id="email" placeholder="Enter Your Email Here">
+
+                    <p><label for="pass">Password</label></p>
+                    <input type="text" id="pass" placeholder="Enter Your Password Here">
+
+                    <p class="forgotPass"><a href="#">Forgot Password?</a></p>
+
+                    <button>Submit</button>
+
+                </form>
+
+            </div>
+
+            <div class="formimg">
+                <img src="./89e31fb982e6d87f239196db2b3e9ccc copy 1.png" alt="">
+            </div>
+
+        </div>
 
     <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
