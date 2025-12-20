@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(4a85c407848cafba739a432313415f35.jpg);
+    position: relative;
+}
+.charcter {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    /* background-color: aqua; */
+    object-fit: contain;
+    bottom: 10px;
+}
