@@ -76,11 +76,10 @@
 
 var assces = document.childNodes[1].childNodes[2].childNodes[9].childNodes[1];
 
+
+
+
 console.log(assces)
-
-
-
-
 
 
 
