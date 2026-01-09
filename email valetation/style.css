@@ -1,32 +1,43 @@
-*{
-    margin: 0;padding: 0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.contanier{
+body {
+    background-color: #1b1b1b;
+}
+
+.contanier {
     display: flex;
     justify-content: center;
+    height: 620px;
     align-items: center;
-    height: 400px;
 }
-#form{
-    position:relative;
+
+#form {
+    position: relative;
 }
 
 #form h3 {
+    word-spacing:  10px;
+    letter-spacing: 1px;
+    color: white;
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-#form input{
+#form input {
     padding: 5px 10px;
     width: 270px;
+    color: white;
+    background-color: #333;
     outline: none;
     font-size: 18px;
 }
 
-#form button{
+#form button {
     font-size: 17px;
     outline: none;
     font-weight: 700;
@@ -39,12 +50,17 @@
     height: 10px;
     background-color: gray;
     border-radius: 50px;
-    position:absolute;
-    right: 80px;
+    position: absolute;
+    right: 20px;
     top: 65px;
 }
 
-#form.vaild .indication{
+#form.vaild .indication {
     background-color: green;
+    box-shadow: 0 0 5px green, 0 0 1px green, 0 0 20px green, 0 0 40px green;
 }
 
+#form.invaild .indication {
+    box-shadow: 0 0 5px red, 0 0 1px red, 0 0 20px red, 0 0 40px red;
+    background-color: red;
+}
