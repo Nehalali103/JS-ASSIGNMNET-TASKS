@@ -1,4 +1,4 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -63,9 +63,9 @@ body {
 #form.invaild .indication {
     box-shadow: 0 0 5px red, 0 0 1px red, 0 0 20px red, 0 0 40px red;
     background-color: red;
-} */
+}
 
-
+/* 
 * {
     margin: 0;
     padding: 0;
@@ -119,4 +119,4 @@ body {
 
 #form.invalid #indication{
     background-color: red;
-} 
+}  */
