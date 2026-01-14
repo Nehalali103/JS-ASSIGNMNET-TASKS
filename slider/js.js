@@ -1,0 +1,20 @@
+let cards = document.querySelectorAll('.card')
+let count = 0;
+
+cards.forEach(function(slide, index){
+    slide.style.left=`${index * 100}%`
+})
+
+function myFn(){
+    cards.forEach(function(curval){
+        curval.style.transform = `translateX(-${count * 100}%)`
+    })
+}
+
+setInterval (function(){
+    count++;
+    if(count == cards.length){
+        count = 0;
+    }
+    myFn()
+}, 2000)
