@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px 70px;
+    height: 56px;
+    font-size: 17px;
+    /* background-color: blue; */
+}
+
+.contanier{
+    margin-left: 70px;
+}
+
+.header-link{
+    display: flex;
+    gap: 70px;
+}
+
+.header-link a{
+    color: black;
+    text-decoration: none;
+}     
+
+.hero{
+    width: 450px;
+}
