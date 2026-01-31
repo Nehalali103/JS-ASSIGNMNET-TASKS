@@ -41,4 +41,29 @@ header{
 
 .headerCenter {
     display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerCenter > div {
+    width: 100px;
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.headerCenter > div:hover{
+    background-color: rgb(149, 142, 142);
+}
+
+.headerCenter> div i{
+    font-size: 20px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+
 }
