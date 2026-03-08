@@ -1,6 +1,6 @@
 
 let signupEl = document.getElementById('signup')
-
+let form = document.getElementById('form')
 let firstName = document.getElementById('firstname')
 let lastName = document.getElementById('lastname')
 let date = document.getElementById('date')
@@ -68,6 +68,12 @@ function formHandler(event) {
 
     sweetArlt('success','Signup','Congratulations! signup successfully!')
 
+
+    setTimeout(()=>{
+        window.location.href = './login/index.html'
+    },1500)
+
+    form.reset()
 
 }
 
