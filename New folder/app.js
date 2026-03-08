@@ -31,15 +31,43 @@ function formHandler(event) {
         month.value.trim() == '' ||
         year.value.trim() == '' ||
         email.value.trim() == '' ||
-        password.value.trim() == '' 
+        password.value.trim() == ''
     ) {
         return sweetArlt('error', 'Oops...', 'Please Enter all fields')
         // console.log('abc');        
     }
 
-    if(password.value.length < 8){
-        sweetArlt('error','Oops...','Password at least 8 character!')
+    if (password.value.length < 8) {
+        sweetArlt('error', 'Oops...', 'Password at least 8 character!')
     }
+
+    let userObj = {
+        firstName: firstName.value,
+        lastName: lastName.value,
+        date: date.value,
+        month: month.value,
+        year: year.value,
+        email: email.value,
+        password: password.value,
+    }
+
+    for (let i = 0; i < gender.length; i++) {
+
+        if (gender[i].checked) {
+            userObj.gender = gender[i].value;
+        }
+
+    }
+
+    let usersData = JSON.parse(localStorage.getItem('users')) || []
+
+    usersData.push(userObj)
+
+    localStorage.setItem('users', JSON.stringify(usersData))
+    
+
+    sweetArlt('success','Signup','Congratulations! signup successfully!')
+
 
 }
 
