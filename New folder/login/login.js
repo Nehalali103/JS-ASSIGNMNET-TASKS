@@ -37,30 +37,34 @@ function formHandler() {
         for (let i = 0; i < users.length; i++) {
             // console.log(users[i]);
             if (users[i].email == email.value && users[i].password == password.value) {
-                // console.log('if');
+                console.log('if');
                 isUers = true;
                 break;
             }
             else {
-                sweetArlt('error', 'User Not Found!', `it's seem like you hsve'nt register yet!`)
+                console.log('aaa');
+                
+              return  sweetArlt('error', 'User Not Found!', `it's seem like you hsve'nt register yet!`)
             }
+                      
+        }
+        
+        // user.forEach((users) => console.log(users))
 
-
+        
+        if (users) {
             sweetArlt('success', 'Login', 'Login Successfully!')
 
 
             setTimeout(() => {
-                window.location.href = '../index2.html'
+                window.location.href = '../index.html'
             }, 1500)
 
-            // form.reset()
-
-
+            form.reset()
         }
 
-        // user.forEach((users) => console.log(users))
-
     }
+
 
 }
 

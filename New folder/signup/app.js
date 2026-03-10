@@ -70,7 +70,7 @@ function formHandler(event) {
 
 
     setTimeout(()=>{
-        window.location.href = './login/index.html'
+        window.location.href = '../login/index.html'
     },1500)
 
     form.reset()
