@@ -38,7 +38,7 @@ function formHandler(event) {
     }
 
     if (password.value.length < 8) {
-        sweetArlt('error', 'Oops...', 'Password at least 8 character!')
+       return sweetArlt('error', 'Oops...', 'Password at least 8 character!')
     }
 
     let userObj = {

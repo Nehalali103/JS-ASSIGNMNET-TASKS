@@ -107,13 +107,16 @@ span p{
 
 .signBtn button{
     margin: 10px auto;
-    padding: 8px 40px; 
+    padding: 8px 40px;
+    width: 100%;
+    border-radius: 25px; 
     font-size: 18px;
     font-weight: 600;
     color: white;
+    cursor: pointer;
     border: none;
-    border-radius: 5px;
-    background-color: rgb(5, 123, 5);   
+    /* border-radius: 5px; */
+    background-color: blue;   
 }
 
 
@@ -137,3 +140,20 @@ span p{
 /* .date_of_birth{
     width: 100%;
 } */
+
+form .alreadlogin button{
+    /* margin-top: 7px; */
+    width: 100%;
+    font-weight:550;
+    padding: 10px 0px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid #cfc3c3;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.alreadlogin a{
+    color: black;
+    text-decoration: none;
+}
